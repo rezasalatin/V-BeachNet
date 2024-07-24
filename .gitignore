@@ -2,9 +2,4 @@
 .vscode/
 __pycache__/
 
-vflood/
-env/
 logs/
-testing_station/
-training_station/
-output/
