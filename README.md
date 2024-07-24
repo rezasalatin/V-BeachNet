@@ -1,6 +1,6 @@
 # V-BeachNet
 
-This repository contains the official PyTorch implementation for the paper "V-BeachNet: A Video Segmentation System for Swash Motion Detection." V-BeachNet is built upon V-FloodNet.
+This repository contains the official PyTorch implementation for the paper "A New Framework for Quantifying Alongshore Variability of Swash Motion Using Fully Convolutional Networks." V-BeachNet is built upon V-FloodNet.
 
 **V-BeachNet paper:**  
 Salatin, R., Chen, Q., Raubenheimer, B., Elgar, S., Gorrell, L., & Li, X. (2024). A New Framework for Quantifying Alongshore Variability of Swash Motion Using Fully Convolutional Networks. Coastal Engineering, 104542.
