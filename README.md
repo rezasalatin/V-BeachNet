@@ -15,7 +15,7 @@ Ensure you have Conda installed on your Ubuntu 24.04 with default version of Pyt
 1. Install Anaconda prerequisite (Can also be accessed from [here](https://docs.anaconda.com/anaconda/install/linux/)):
 ```sh
 sudo apt update && \
-sudo apt install libgl1-mesa-dri libegl1 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2-data libasound2-plugins libxi6 libxtst6
+sudo apt install libgl1-mesa-dri libegl1 libglu1-mesa libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2-data libasound2-plugins libxi6 libxtst6
 ```
 
 2. Download Anaconda3:
