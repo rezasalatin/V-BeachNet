@@ -42,7 +42,7 @@ conda env create -f environment.yml
 conda activate vbeach
 ```
 
-3. Visit the "Training_Station" folder and copy your manually segmented ([here](https://github.com/labelmeai/labelme)) dataset to this directory. Open the following file to change any of the variables and save it. Then execute it to train the model:
+3. Visit the "Training_Station" folder and copy your manually segmented (using [labelme](https://github.com/labelmeai/labelme)) dataset to this directory. Open the following file to change any of the variables and save it. Then execute it to train the model:
 ```sh
 ./train_video_seg.sh
 ```
