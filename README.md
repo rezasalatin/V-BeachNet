@@ -10,7 +10,7 @@ Liang, Y., Li, X., Tsai, B., Chen, Q., & Jafari, N. (2023). V-FloodNet: A video 
 
 ## Prerequisites
 
-Ensure you have Conda installed on your Ubuntu 24.04 with default version of Python and Nvidia GPU driver installed.
+Install Conda on your Ubuntu 24.04 with default version of Python and Nvidia GPU.
 
 1. Install Anaconda prerequisite (Can also be accessed from [here](https://docs.anaconda.com/anaconda/install/linux/)):
 ```sh
@@ -44,12 +44,10 @@ conda activate vbeach
 
 3. Visit the "Training_Station" folder and copy your manually segmented dataset to this directory. Run the following command to train the model:
 ```sh
-chmod +x train_video_seg.sh
 ./train_video_seg.sh
 ```
 
 4. Visit the "Testing_Station" folder and copy your data to this directory. Run the following command to automatically segment your data:
 ```sh
-chmod +x test_video_seg.sh
 ./test_video_seg.sh
 ```
