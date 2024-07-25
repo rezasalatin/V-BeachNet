@@ -10,7 +10,7 @@ Liang, Y., Li, X., Tsai, B., Chen, Q., & Jafari, N. (2023). V-FloodNet: A video 
 
 ## Prerequisites
 
-Install Conda on your Ubuntu 24.04 with default version of Python and Nvidia GPU.
+This code is tested on a newly installed Ubuntu 24.04 with default version of Python and Nvidia GPU.
 
 1. Install Anaconda prerequisite (Can also be accessed from [here](https://docs.anaconda.com/anaconda/install/linux/)):
 ```sh
