@@ -46,8 +46,10 @@ conda activate vbeach
 ```sh
 ./train_video_seg.sh
 ```
+Access your trained model from log/ directory.
 
 4. Visit the "Testing_Station" folder and copy your data to this directory. Run the following command to automatically segment your data:
 ```sh
 ./test_video_seg.sh
 ```
+Access your segmented data from output directory.
