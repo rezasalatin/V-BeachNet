@@ -12,6 +12,22 @@ Liang, Y., Li, X., Tsai, B., Chen, Q., & Jafari, N. (2023). V-FloodNet: A video 
 
 Ensure you have Conda installed on your Linux system with Python 3.11.6 and Nvidia GPU driver installed. You can install it from [here](https://docs.anaconda.com/anaconda/install/linux/).
 
+1. Install Anaconda prerequisite:
+```sh
+sudo apt update && \
+sudo apt install libgl1-mesa-dri libegl1 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2-data libasound2-plugins libxi6 libxtst6
+```
+
+2. Download Anaconda3:
+```sh
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+```
+
+3. Located the downloaded file and install it:
+```sh
+bash Anaconda3-2024.06-1-Linux-x86_64.sh
+```
+
 ## Steps
 
 1. Clone this repository and change directory:
