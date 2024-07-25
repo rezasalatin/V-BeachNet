@@ -50,7 +50,6 @@ Access your trained model from log/ directory.
 
 4. Visit the "Testing_Station" folder and copy your data to this directory. Open the following file to change any of the variables (especially model path from the log/ folder) and save it. Then execute it to test the model:
 ```sh
-```sh
 ./test_video_seg.sh
 ```
 Access your segmented data from output directory.
