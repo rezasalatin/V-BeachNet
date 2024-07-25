@@ -40,7 +40,6 @@ cd V-BeachNet
 ```sh
 conda env create -f environment.yml
 conda activate vbeach
-pip install -r requirements.txt
 ```
 
 3. Visit the "Training_Station" folder and copy your manually segmented dataset to this directory. Run the following command to train the model:
