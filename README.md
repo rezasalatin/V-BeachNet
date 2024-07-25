@@ -10,9 +10,9 @@ Liang, Y., Li, X., Tsai, B., Chen, Q., & Jafari, N. (2023). V-FloodNet: A video 
 
 ## Prerequisites
 
-Ensure you have Conda installed on your Linux system with Python 3.11.6 and Nvidia GPU driver installed. You can install it from [here](https://docs.anaconda.com/anaconda/install/linux/).
+Ensure you have Conda installed on your Ubuntu 24.04 with default version of Python and Nvidia GPU driver installed.
 
-1. Install Anaconda prerequisite:
+1. Install Anaconda prerequisite (Can also be accessed from [here](https://docs.anaconda.com/anaconda/install/linux/)):
 ```sh
 sudo apt update && \
 sudo apt install libgl1-mesa-dri libegl1 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2-data libasound2-plugins libxi6 libxtst6
