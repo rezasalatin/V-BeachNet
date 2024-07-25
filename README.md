@@ -42,13 +42,14 @@ conda env create -f environment.yml
 conda activate vbeach
 ```
 
-3. Visit the "Training_Station" folder and copy your manually segmented dataset to this directory. Run the following command to train the model:
+3. Visit the "Training_Station" folder and copy your manually segmented dataset to this directory. Open the following file to change any of the variables and save it. Then execute it to train the model:
 ```sh
 ./train_video_seg.sh
 ```
 Access your trained model from log/ directory.
 
-4. Visit the "Testing_Station" folder and copy your data to this directory. Run the following command to automatically segment your data:
+4. Visit the "Testing_Station" folder and copy your data to this directory. Open the following file to change any of the variables (especially model path from the log/ folder) and save it. Then execute it to test the model:
+```sh
 ```sh
 ./test_video_seg.sh
 ```
