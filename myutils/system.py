@@ -17,7 +17,7 @@ class AvgMeter(object):
         self.avg = 0
         self.sum = 0
         self.cnt = 0
-        self.max = -np.Inf
+        self.max = -np.inf
 
         if self.window > 0:
             self.val_arr = np.zeros(self.window)

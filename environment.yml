@@ -15,7 +15,8 @@ dependencies:
   - pandas
   - scikit-learn
   - opencv
+  - gxx_linux-64
   - pip
   - pip:
-    - torch-scatter==2.0.1+cu121 --find-links https://data.pyg.org/whl/torch-2.0.1+cu121.html
+    - torch-scatter -f https://data.pyg.org/whl/torch-2.1.2+cu121.html
     - segmentation-models-pytorch==0.2.0
